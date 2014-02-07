@@ -1,0 +1,15 @@
+/* 
+/* Using a media query here in case we decide to minify
+/* and concatenate our stylesheets together. If so,
+/* then only a single <link rel="stylesheet" /> will be
+/* used in the <head> of index.html. Which means we
+/* cannot use the media="print" attribute to control
+/* when the CSS below is applied.
+*/
+@media print {
+
+  .links-container {
+    display: none;
+  }
+
+}
